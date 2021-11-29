@@ -1,11 +1,8 @@
 package com.java.practice;
 
-import java.util.Arrays;
-
-public class ArrayExample {
+public class ArrayClassExample {
 
 	public static void main(String[] args) {
-
 		int[] array = { 1, 4, 0, 23, 0, 0, 21, 0, 6, 78, 0 }; // Arrays.sort(array);
 		// System.out.println(array);
 
@@ -33,35 +30,9 @@ public class ArrayExample {
 
 			}
 			System.out.print(array[i] + "  ");
-			//syso
-			
 			
 		}
 
 	}
-}
 
-/*
- * int[] array = { 1, 4, 0, 23, 0, 0, 21, 0, 6, 78, 0 }; int index = 0; int
- * n=array.length; for (int i = 0; i <n ; i++) {
- * 
- * if (array[i] != 0) { array[index] = array[i]; System.out.println(array[i]);
- * index=index+1;
- * 
- * System.out.println("indise for"+index);
- * 
- * } while(index<array.length){
- * 
- * array[index]=0; System.out.println(array[i]); index=index+1;
- * 
- * }
- * 
- * }
- * 
- * 
- * System.out.println("outdise for"+index);
- * 
- * }
- * 
- * }
- */
+}

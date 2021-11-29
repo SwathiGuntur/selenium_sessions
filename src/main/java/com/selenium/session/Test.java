@@ -3,7 +3,7 @@ package com.selenium.session;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 
-public class Test implements Interface1, Interface2 {
+public class Test implements Interface2 {
 
 	public static void main(String[] args) {
 		String str = "Abc123";
